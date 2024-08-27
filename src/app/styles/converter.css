@@ -1,0 +1,28 @@
+ :root {
+   --background-blue: #007a82;
+
+ }
+ body {
+   text-align: center;
+ }
+
+.App {
+   align-items: center;
+   flex-wrap:wrap;
+   justify-content: center;
+   height: 100vh;
+
+   .currency-converter {
+      background-color: var(--background-blue);
+      column-gap: 2em;
+
+      select, input {
+         color: var(--background-blue);
+         height: 30px;
+
+      }
+   }
+
+}
+
+ 
